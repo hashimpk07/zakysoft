@@ -40,7 +40,7 @@ datasets efficiently.</p>
 
 <h2 style="font-weight: bold;">How to Execute the Project</h2>
 <ul>
-    <li><strong>Step 1:</strong> Clone the project:<br><code>git clone https://github.com/hashimpk07/appstation.git</code></li>
+    <li><strong>Step 1:</strong> Clone the project:<br><code>git clone https://github.com/hashimpk07/zakysoft.git</code></li>
     <li><strong>Step 2:</strong> Create a <code>.env</code> file from <code>.env.example</code>:</li>
     <li><strong>Step 3:</strong> Update the <code>.env</code> file with the following DB settings:<br>
         <code>
@@ -62,7 +62,7 @@ datasets efficiently.</p>
   
   <li><strong>Step 8:</strong> Run seeders to populate initial data:<br><code>php artisan db:seed</code></li>
   
-  <li><strong>Step 9:</strong> (Optional) Create a test user via Laravel Tinker:<br>
+  <li><strong>Step 9:</strong>  Create a login user via Laravel Tinker:<br>
     <code>php artisan tinker</code><br>
     <code>\App\Models\User::create(['name' => 'hashim', 'email' => 'hashimpk04@gmail.com', 'password' => bcrypt('12345678')]);</code>
   </li>
